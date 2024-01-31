@@ -1,0 +1,21 @@
+# Hugo generated files
+/public/
+
+# macOS system files
+.DS_Store
+
+# Editor temporary files
+*.swp
+.vscode/
+
+# Compiled binary
+*.exe
+
+# Logs
+*.log
+
+# Ignore Netlify configuration files
+/netlify.toml
+
+# Ignore GitHub Actions workflow files
+/.github/workflows/

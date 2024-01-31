@@ -3,6 +3,7 @@
 # https://jpanther.github.io/congo/docs/getting-started/
 
 baseURL = 'https://yuanyuan.github.io/'
+title = 'yuanyuan's site'
 
 theme = "congo"
 defaultContentLanguage = "en"

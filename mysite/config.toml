@@ -1,0 +1,4 @@
+baseURL = 'https://yuanyuan.github.io/'
+title = "yuanyuan's site"
+theme = "congo"
+defaultContentLanguage = "en"

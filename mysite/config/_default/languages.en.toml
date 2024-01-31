@@ -1,0 +1,22 @@
+languageCode = "en-AU"
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+
+title = "Home"
+copyright = "&copy; 2024 Yuanyuan Zhou"
+
+[params]
+  dateFormat = "25 January 2024"
+  mainSections = ["Projects","Blogs"]
+
+[params.author]
+  name = "Yuanyuan Zhou"
+  image = "img/selfie.jpg"
+  headline = "Master of Science in Machine Learning"
+  bio = "Hi there, I'm Yuanyuan Zhou. Currently I am a MSc student in Machine Learning at UCL, the UK. Before this I completed my BEng in Sichuan University, China. My research interests in machine learning, computer vision, networking and Cyber Security."
+  links = [
+    { github = "https://github.com/CIRCIRCIRCLE/" },
+    { email = "mailto:zyywlpre@gmail.com" },
+    { linkedin = "https://www.linkedin.com/in/yuanyuan-zhou-b71258282/" },
+  ]

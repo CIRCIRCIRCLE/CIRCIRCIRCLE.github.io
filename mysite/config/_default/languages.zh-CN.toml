@@ -1,0 +1,24 @@
+languageCode = "zh-CN"
+languageName = "简体中文"
+languageDirection = "ltr"
+weight = 1
+
+title = "主页"
+copyright = "&copy; 2024 Congo contributors"
+
+[params]
+  dateFormat = "2024年1月25日"
+
+  mainSections = ["samples"]
+  description = "一款基于Tailwindcss的强大且轻量的Hugo主题"
+
+[params.author]
+  name = "周园圆"
+  image = "img/selfie.jpg"
+  headline = "机器学习 硕士"
+  bio = "Hi.我当前在伦敦大学学院（UCL）攻读机器学习硕士学位，在此之前于四川大学电子信息学院完成本科学业。我的研究领域主要是机器学习与深度学习算法，计算机视觉， 网络及网络安全"
+  links = [
+    { github = "https://github.com/CIRCIRCIRCLE/" },
+    { email = "mailto:zyywlpre@gmail.com" },
+    { linkedin = "https://www.linkedin.com/in/yuanyuan-zhou-b71258282/" },
+  ]

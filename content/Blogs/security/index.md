@@ -124,7 +124,8 @@ We evaluate ML performance from three different perspectives:
 
 Most anomaly detection model must train the entire data set at an immense cost. We propose a transferable and adaptable network intrusion detection system(TA-NIDS) based on deep reinforcement learning.
 
-__Index:__ Deep reinforcement learning, anomaly detection, transferable framework, robustness, adaptable framework
+__Index:__ Deep reinforcement learning, anomaly detection, transferable framework, robustness, adaptable framework   
+__source code:__ https://github.com/HE0413/TA-NIDS.git
 
 **Methods:**   
 ![TA-NID_Archi](TA-NID%20overviews.png)

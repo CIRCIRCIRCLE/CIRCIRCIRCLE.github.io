@@ -9,6 +9,74 @@ tags: ["iot, Security"]
 {{< katex >}}
 
 ## 1. A Systematic Review of Data-Driven Attack Detection Trends in IoT
+**Objectives:**  
+ This research aims to provide an overview of the IoT datasets available today, trends in machine learning and deep learning usage, and the efficiencies of these algorithms on a variety of relevant datasets. The results of this comprehensive survey can serve as a guide and resource for identifying the various datasets, experiments carried out and future research directions in this field.
+
+__Index:__  IoT; datasets; machine learning; cyberattack; intrusion detection; threat detection
+
+**Methods:**     
+1. Define the research questions (RQs) the review addresses.
+2. Outline the information sources used to retrieve relevant information.
+3. Determine the keywords used to perform search queries in the databases.
+4. Filter of information based on inclusion and exclusion criteria.
+5. Representation of the results found in relation to the research questions defined
+
+**Main Context:**
+1. iot architecture and threat mapping
+{{< mermaid >}}
+mindmap
+  root((IoT Architecture))
+    A[Layer Specific]
+        Physical
+        Network
+        Middleware
+        Application
+    Domain Specific
+      Cloud IoT
+      IIoT
+      Smart Cities
+    Industriy Specific
+        Smart things
+        Cisco
+        AWS
+{{< /mermaid >}}
+
+2. Datasets and corresponding networks
+![DatasetDescription](dataset1.png)
+![DatasetDescription](dataset2.png)
+
+3. Dataset Features:  
+3 features are mainly used for tagging benign, attack and type of attack: __attack, category and subcategory labels__  
+_e.g. the category is used to indicate that a flow belongs to a DoS attack while the subcategory indicates if it was a UDP, TCP, HTTP or ICMP DoS attack_
+
+4. Attack category:  
+    **OSI mapping:**
+    |Layer|Attack|
+    |---|---|
+    |application|XSS, SQL injection, HTTP DoS|
+    |transport|TCP, UDP, DDoS, DoS|
+    |Network|ICMP flood, DoS|
+    |Datalink|ARP Spoofing|
+
+    **Traffic Related:**
+        Mirai and BASHLITE are the most common types
+        DoS and reconnaissance attacks are the next most common  
+    **IoT protocols related:** MQTT attacks
+
+5. ML and DL tools:   
+    It was also observed that the most commonly used ML algorithms were tree-based, while neural networks (NNs) are the most common for DL algorithms.  
+      
+    Federated Learning: data from iot are non-IID, device could train the model at different times with different data sizes or parameters. This is a huge advantage, as IoT sensors differ in terms of their characteristics and the amount of information they gather.  
+
+
+
+**Outcomes:**   
+feature engineering, IoT protocols, system requirements and efficiencies of detection models   
+
+**Contribution:**  
+A foundation for understanding the current state and potential trajectory of data-driven attack detection trends in IoT research. The variations within the range of IoT-related datasets studied demonstrate that momentum is building in this area.
+
+
 
 ## 2. CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment
 **Objectives:**  
@@ -20,13 +88,36 @@ seven categories, namely DDoS, DoS, Recon, Web-based, brute force, spoofing, and
 __Index:__  Internet of Things (IoT); dataset; security; machine learning; deep learning; DoS; DDoS; reconnaissance; web attacks; brute force; spoofing; Mirai
 
 **Methods:**   
+IoT topology -> execute attacks -> collect data from benign and malicious scenarios
 
 **Main Context:**
+1. Data collection of benign and malicious scenarios:
+| |Attack|
+|---|---|
+|__DDoS__|ACK Fragmentation, UDP Flood, SlowLoris, ICMP Flood, RSTFIN flood, PSHARK flood, HTTP Flood, UDP Fragmentation, ICMP fragmentation, TCP Flood, SYN Flood, SynonymousIP Flood|
+|__DoS__|TCP Flood, HTTP Flood, SYN Flood, UDP Flood|
+|__Recon__|Ping Sweep, OS Scan, Vulnerability Scan, Host Discovery|
+|__Web-Based__|SQL injection, command injection, Backdoor Malware, Uploading Attack, XSS, Browser Hijacking|
+|__Brute Force__|Dictionary Brute Force|
+|__Spoofing__|ARP Spoofing, DNS Spoofing|
+|__Mirai__|GREIP Flood, Greeth Flood, UDPPlain|
 
-**Outcomes:**
+2. Gathering info from the iot topology
+Ping Sweep, OS Scan, Vulnerability Scan, Port Scan, Host Discovery
 
-**Contribution:**
+3. Evaluation: Logistic Regression, Percepton, AdaBoost, DeepNeuralNetwork, Random Forest
 
+**Outcomes:**   
+We evaluate ML performance from three different perspectives:   
+1. multiclass classification, focussing on classifying 33 individual attacks;   
+2. grouped classification, considering 7 attack groups (e.g., DDoS and DoS);   
+3. binary classification (i.e., malicious and benign traffic classification)  
+
+
+**Contribution:**   
+1. Design a new realistic IoT attack dataset, CICIoT2023, using an extensive topology composed of several real IoT devices acting as either attackers or victims;
+2. We perform, document, and collect data from 33 attacks divided into 7 classes against ioT devices and demonstrated how they can be reproduced;
+3. We evaluate the performance of machine and deep learning algorithms using the CICIoT2023 dataset to classify and detect IoT network traffic as malicious or benign.
 
 ## 3. Reinforcement learning meets network intrusion detection: a transferable and adaptable framework for anomaly behavior identification
 **Objectives:**
@@ -36,7 +127,7 @@ Most anomaly detection model must train the entire data set at an immense cost. 
 __Index:__ Deep reinforcement learning, anomaly detection, transferable framework, robustness, adaptable framework
 
 **Methods:**   
-![TA-NID_layout](TA-NID overviews.png "TA-NID overview")
+![TA-NID_Archi](TA-NID%20overviews.png)
 1. Basic RL: The agent obtains knowledge from the environment and improves the action plan to adapt to the environment. Positive reward is regarded as the reinforcement signal, try to maximize the expectation of reward R_t. 
 2. Reward machanism for interactive processes: set the positive reward that can be obtained only when outlier classes are screened correctly. Prioritize selecting outliers by reward mechanism, making it adaptable to the actual scene.
 3. Proximal policy optimization(PPO): PPO uses constraints to ensure that the difference between the old and new strategies is not too significant, which can avoid unexpected performance degradation caused by significant differences.

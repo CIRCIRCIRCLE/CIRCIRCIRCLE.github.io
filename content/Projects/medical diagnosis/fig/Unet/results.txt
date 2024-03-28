@@ -1,0 +1,9 @@
+Model evaluation on the test set:
+==================================
+Loss : 0.0222
+Accuracy : 0.9939
+MeanIOU : 0.8014
+Dice coefficient : 0.5091
+Precision : 0.9942
+Sensitivity : 0.9929
+Specificity : 0.998

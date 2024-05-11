@@ -19,5 +19,5 @@ copyright = "&copy; 2024 Yuanyuan Zhou"
     { github = "https://github.com/CIRCIRCIRCLE/" },
     { email = "mailto:zyywlpre@gmail.com" },
     { linkedin = "https://www.linkedin.com/in/yuanyuan-zhou-b71258282/" },
-    { cv = "https://drive.google.com/file/d/1AkzuDcZ6MDThtRqHXH7A93V6bR7gT5qC/view?usp=drive_link"},
+    { file = "https://drive.google.com/file/d/1AkzuDcZ6MDThtRqHXH7A93V6bR7gT5qC/view?usp=drive_link"},
   ]

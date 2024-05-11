@@ -12,12 +12,12 @@
 
 [[main]]
   name = "项目"
-  pageRef = "docs"
+  pageRef = "Projects"
   weight = 10
 
 [[main]]
   name = "博客"
-  pageRef = "samples"
+  pageRef = "Blogs"
   weight = 20
 
 [[main]]

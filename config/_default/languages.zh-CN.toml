@@ -9,8 +9,7 @@ copyright = "&copy; 2024 Congo contributors"
 [params]
   dateFormat = "2024年1月25日"
 
-  mainSections = ["samples"]
-  description = "一款基于Tailwindcss的强大且轻量的Hugo主题"
+  mainSections = ["Projects", "Blogs"]
 
 [params.author]
   name = "周园圆"

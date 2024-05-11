@@ -1,5 +1,5 @@
 ---
-title: "FinAdvisor Phi-2: A Financial QA System Enhanced by QLoRA and DPO"
+title: "FinAdvisor Phi-2：基于QLoRA和DPO优化的金融问答系统"
 date: 2024-04-10
 draft: false
 description: "QLoRA for Finetuning DPO to align with human preferences, RAG interacts with local document"

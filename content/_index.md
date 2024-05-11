@@ -9,4 +9,4 @@ zyywlpre@gmail.com
 
 Hi there, I'm Yuanyuan Zhou. Currently I am a MSc student in Machine Learning at UCL, the UK. Before this I completed my BEng in Sichuan University, China.    
 
-My research interests in Machine Learning, Computer Networks, Networking and Cyber Security.
+My research interests in Machine Learning, Distributed Systems and Cyber Security.

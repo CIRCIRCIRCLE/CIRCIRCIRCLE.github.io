@@ -4,17 +4,17 @@ languageDirection = "ltr"
 weight = 1
 
 title = "Home"
-copyright = "&copy; 2024 Yuanyuan Zhou"
+copyright = "&copy; 2025 Yuanyuan Zhou"
 
 [params]
-  dateFormat = "25 January 2024"
-  mainSections = ["Projects","Blogs"]
+  dateFormat = "25 January 2025"
+  mainSections = ["Projects"]
 
 [params.author]
   name = "Yuanyuan Zhou"
   image = "img/selfie.jpg"
-  headline = "Master of Science in Machine Learning"
-  bio = "Hi there, I'm Yuanyuan Zhou. Currently I am a MSc student in Machine Learning at UCL, the UK. Before this I completed my BEng in Sichuan University, China. My research interests in Machine Learning, Distributed System, and Cyber Security."
+  headline = "PhD Student in Security & Privacy"
+  bio = "I'm a first-year PhD student in Electronic and Electrical Engineering (EEE) at University College London (UCL), supervised by [Dr.Anna Maria Mandalari](https://profiles.ucl.ac.uk/89052). I have a solid background in Machine Learning and Telecommunication. I am currently investigating Honeypots and IPv6 in the context of IoT security and privacy."
   links = [
     { github = "https://github.com/CIRCIRCIRCLE/" },
     { email = "mailto:zyywlpre@gmail.com" },

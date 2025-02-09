@@ -7,15 +7,15 @@ title = "主页"
 copyright = "&copy; 2024 Congo contributors"
 
 [params]
-  dateFormat = "2024年1月25日"
+  dateFormat = "2025年1月25日"
 
-  mainSections = ["Projects", "Blogs"]
+  mainSections = ["Projects"]
 
 [params.author]
   name = "周园圆"
   image = "img/selfie.jpg"
-  headline = "机器学习 硕士"
-  bio = "Hi.我当前在伦敦大学学院（UCL）攻读机器学习硕士学位，在此之前于四川大学电子信息学院完成本科学业。我的研究领域主要是机器学习与深度学习算法，计算机视觉， 网络及网络安全"
+  headline = "PhD学生 安全与隐私"
+  bio = "我当前在伦敦大学学院（UCL）攻读EEE博士学位，主要研究IoT, 安全与隐私，计算机网络的相关技术。"
   links = [
     { github = "https://github.com/CIRCIRCIRCLE/" },
     { email = "mailto:zyywlpre@gmail.com" },

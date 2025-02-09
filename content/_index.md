@@ -4,9 +4,8 @@ description: "This is a demo of the Congo theme for Hugo."
 ---
 
 {{< lead >}}
-zyywlpre@gmail.com
+yuanyuan.zhou.23@ucl.ac.uk
 {{< /lead >}}
 
-Hi there, I'm Yuanyuan Zhou. Currently I am a MSc student in Machine Learning at UCL, the UK. Before this I completed my BEng in Sichuan University, China.    
+I'm a first-year PhD student in [Electronic and Electrical Engineering (EEE)](https://www.ucl.ac.uk/electronic-electrical-engineering/research/information-and-communication-engineering) at [University College London (UCL)](https://www.ucl.ac.uk/), supervised by [Dr.Anna Maria Mandalari](https://profiles.ucl.ac.uk/89052). I have a solid background in Machine Learning and Telecommunication. I am currently investigating Honeypots and IPv6 in the context of IoT security and privacy.
 
-My research interests in Machine Learning, Distributed Systems and Cyber Security.

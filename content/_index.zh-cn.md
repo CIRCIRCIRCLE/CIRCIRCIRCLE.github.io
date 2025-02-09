@@ -4,9 +4,9 @@ description: "这是一个基于Hugo的主题Congo示例。"
 ---
 
 {{< lead >}}
-zyywlpre@gmail.com
+yuanyuan.zhou.23@ucl.ac.uk
 {{< /lead >}}
 
-欢迎来到我的主页。我当前在伦敦大学学院（UCL）攻读机器学习硕士学位，在此之前于四川大学电子信息学院完成本科学业。  
-研究领域：机器学习，分布式系统，网络安全
+我当前在伦敦大学学院[UCL](https://www.ucl.ac.uk/) [EEE](https://www.ucl.ac.uk/electronic-electrical-engineering/research/information-and-communication-engineering)攻读博士学位，主要研究IoT, 安全与隐私，计算机网络的相关技术。  
+研究领域：网络安全，机器学习，物联网
 
